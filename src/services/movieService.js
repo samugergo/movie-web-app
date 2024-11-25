@@ -1,4 +1,5 @@
-import { MovieResource } from "@/apis/MovieResource";
+import { MovieResource } from "@/resources/MovieResource";
+
 const resource = new MovieResource();
 
 export async function get(page, type, order) {
